@@ -1,0 +1,32 @@
+main .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  main .container .card {
+    margin-bottom: -6px; }
+    main .container .card:hover {
+      transform: scale(1.2, 1.2);
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out; }
+    main .container .card img {
+      width: 100%; }
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 20px; }
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%; } }
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  .card {
+    width: 50%; } }
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .card {
+    width: 30%; } }
+@media screen and (min-width: 1201px) {
+  .card {
+    width: 25%; } }
+
+/*# sourceMappingURL=style.css.map */

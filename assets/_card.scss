@@ -1,0 +1,19 @@
+main {
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .card {
+      margin-bottom: -6px;
+      &:hover {
+        transform: scale(1.2, 1.2);
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
